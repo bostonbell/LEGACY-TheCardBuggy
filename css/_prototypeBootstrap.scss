@@ -1,0 +1,53 @@
+$normalPadding: 100px;
+$littlePadding: 10px;
+$normalMargin: 40px;
+$normalBorderRadius: 4px;
+
+body {
+    padding-top: $normalPadding;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: normalMargin;
+}
+
+.carousel-control,
+.item {
+    border-radius: $normalBorderRadius;
+}
+
+.caption {
+    height: $normalPadding;
+    overflow: hidden;
+}
+
+.caption h4{
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%
+}
+
+.ratings {
+     padding-right: $littlePadding;
+     padding-left: $littlePadding;
+}
+
+.thumbnail {
+     padding: 0;
+}
+
+.thumbnail .caption-full
+{
+    padding: $littlePadding;
+    color: #333;
+}
+
+footer {
+     margin: 50px 0;
+}

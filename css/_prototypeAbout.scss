@@ -1,0 +1,45 @@
+$normalPadding: 100px;
+$littlePadding: 10px;
+$normalMargin: 40px;
+$normalBorderRadius: 4px;
+$borderData: 2px solid black;
+$slightlySmaller: 48%;
+$slightlyMargins: 0%;
+$fullSized : 100%;
+$elementStaticHeight : 600px;
+
+.container {
+    
+    .well
+    {
+        border: $borderData;
+        height: $elementStaticHeight / 1.05;
+    }
+
+    .col-md-6 
+    {
+       margin: $littlePadding;
+       margin-left: $slightlyMargins;
+       margin-right: $slightlyMargins;
+
+       height: $elementStaticHeight;
+    }
+
+    .col-sm-12 
+    {
+       margin: $littlePadding;
+       margin-left: $slightlyMargins;
+       margin-right: $slightlyMargins;
+
+       height: $elementStaticHeight;
+    }
+
+    .col-xs-12 
+    {
+       margin: $littlePadding;
+       margin-left: $slightlyMargins;
+       margin-right: $slightlyMargins;
+       
+       height: $elementStaticHeight;
+    }
+}
