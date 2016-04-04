@@ -20,7 +20,7 @@ $normalMargin: 40px;
 }
 
 .btn-primary{
-    @include transition(0.5s);
+    @include transition(1s);
     text-transform: uppercase;
     font-weight: bold;
     color: red;
@@ -28,7 +28,7 @@ $normalMargin: 40px;
     border: 4px solid white;
 
     &:hover {
-        @include transition(0.5s);
+        @include transition(1s);
         text-transform: uppercase;
         font-weight: bold;
         color: black !important;

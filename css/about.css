@@ -105,10 +105,10 @@ footer {
   margin-top: 20px; }
 
 .btn-primary {
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  border-radius: 0.5s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  border-radius: 1s;
   text-transform: uppercase;
   font-weight: bold;
   color: red;
@@ -119,10 +119,10 @@ footer {
   -ms-border-radius: 0px;
   border-radius: 0px; }
   .btn-primary:hover {
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    border-radius: 0.5s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    border-radius: 1s;
     text-transform: uppercase;
     font-weight: bold;
     color: black !important;
