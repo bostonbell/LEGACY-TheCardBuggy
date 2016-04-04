@@ -1,0 +1,54 @@
+$mainFontStyle : "Helvetica Neue", Helvetica, Sans serif;
+$mobileUpperBound : 766px;
+$desktopLowerBound : 767px;
+
+
+h1{
+    color: black !important;
+    font-style: $mainFontStyle;
+    @media screen and (min-width: $desktopLowerBound)
+    {
+        font-size: 5vw;
+    }
+
+    @media screen and (max-width: $mobileUpperBound)
+    {
+        font-size: 40px !important;
+    }
+
+}
+
+
+h4{
+    color: black !important;
+    font-style: $mainFontStyle;
+    @media screen and (min-width: $desktopLowerBound)
+    {
+        font-size: 2vw;
+    }
+
+    @media screen and (max-width: $mobileUpperBound)
+    {
+        font-size: 20px !important;
+    }
+
+}
+
+.titleData
+{
+    @media screen and (max-width: $mobileUpperBound)
+    {
+        margin-top: 21vh; 
+    }
+
+    @media screen and (min-width: $desktopLowerBound)
+    {
+        margin-top: 24vh; 
+    }
+}
+
+.redTitle
+{
+     color: red !important;
+}
+

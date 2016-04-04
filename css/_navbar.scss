@@ -10,6 +10,10 @@ $primaryFontFamily: 'Open Sans', 'Helvetica Neue', sans-serif;
     transition: all $time;
 }
 
+.navlinkActive{
+    color: $navbarHover !important;
+}
+
 .navbar-default{
     background: $navbarBackground !important;
     border-color: $navbarHover;

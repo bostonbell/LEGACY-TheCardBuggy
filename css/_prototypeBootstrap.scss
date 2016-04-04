@@ -21,6 +21,7 @@ body {
 }
 
 .caption {
+    padding-top: $littlePadding * 2;
     height: $normalPadding;
     overflow: hidden;
 }

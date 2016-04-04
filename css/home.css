@@ -98,8 +98,35 @@ footer {
 .notop {
   margin-top: 0px !important; }
 
-.nobot {
-  margin-bottom: 0px !important; }
+h1 {
+  color: black !important;
+  font-style: "Helvetica Neue", Helvetica, Sans serif; }
+  @media screen and (min-width: 767px) {
+    h1 {
+      font-size: 5vw; } }
+  @media screen and (max-width: 766px) {
+    h1 {
+      font-size: 40px !important; } }
+
+h4 {
+  color: black !important;
+  font-style: "Helvetica Neue", Helvetica, Sans serif; }
+  @media screen and (min-width: 767px) {
+    h4 {
+      font-size: 2vw; } }
+  @media screen and (max-width: 766px) {
+    h4 {
+      font-size: 20px !important; } }
+
+@media screen and (max-width: 766px) {
+  .titleData {
+    margin-top: 21vh; } }
+@media screen and (min-width: 767px) {
+  .titleData {
+    margin-top: 24vh; } }
+
+.redTitle {
+  color: red !important; }
 
 .buttonColumn {
   margin-top: 20px; }
@@ -129,4 +156,4 @@ footer {
     background: white !important;
     border: 4px solid red !important; }
 
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=home.css.map */
