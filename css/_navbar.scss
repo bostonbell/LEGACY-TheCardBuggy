@@ -16,7 +16,7 @@ $primaryFontFamily: 'Open Sans', 'Helvetica Neue', sans-serif;
 
 .navbar-default{
     background: $navbarBackground !important;
-    border-color: $navbarHover;
+    border-bottom: 2px solid $navbarHover;
     font-family: $primaryFontFamily;
     @include transition(0.35s);
 

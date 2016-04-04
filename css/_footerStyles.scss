@@ -1,0 +1,16 @@
+$primaryForegroundColor: white;
+$primaryBackgroundColor: black;
+
+.footer
+{
+    color: $primaryForegroundColor !important;
+    background: $primaryBackgroundColor !important;
+    p
+    {
+         margin-top: 1.5vh;
+    }
+
+    border-top: 2px solid red;
+}
+
+

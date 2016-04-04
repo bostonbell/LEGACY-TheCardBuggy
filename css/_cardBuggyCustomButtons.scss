@@ -23,9 +23,9 @@ $normalMargin: 40px;
     @include transition(0.5s);
     text-transform: uppercase;
     font-weight: bold;
-    color: white;
-    background: red;
-    border: 4px solid black;
+    color: red;
+    background: black;
+    border: 4px solid white;
 
     &:hover {
         @include transition(0.5s);
