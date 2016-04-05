@@ -1,24 +1,25 @@
 $navbarBackground: black;
+$transitionTime: 2s;
+$transitionScale: 1.2;
 $navbarForeground: white;
 $navbarHover: red;
-$primaryFontFamily: 'Open Sans', 'Helvetica Neue', sans-serif;
+$primaryFontFamily: 'Bitter', serif;
 
-@mixin transition($time){
-    -webkit-transition: all $time;
-    -moz-transition: all $time;
-    -ms-transition: all $time;
-    transition: all $time;
-}
+@mixin transitionScale($time, $scale){
+   }
 
 .navlinkActive{
     color: $navbarHover !important;
 }
 
 .navbar-default{
-    background: $navbarBackground !important;
+    -webkit-transition: all $transitionTime;
+    -moz-transition: all $transitionTime;
+    -ms-transition: all $transitionTime;
+    transition: all $transitionTime;
+    background: transparentize($navbarBackground, 0.3) !important;
     border-bottom: 2px solid $navbarHover;
     font-family: $primaryFontFamily;
-    @include transition(0.35s);
 
     .navbar-header 
     {
@@ -33,6 +34,14 @@ $primaryFontFamily: 'Open Sans', 'Helvetica Neue', sans-serif;
             color: $navbarHover;
         }
     }
+
+    &:hover {
+        background: black !important; 
+    }
+
+
+
+
 }
 
 .navbar-default .nav > li > a,

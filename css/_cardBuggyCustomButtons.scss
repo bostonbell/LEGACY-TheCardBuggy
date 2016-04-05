@@ -1,5 +1,6 @@
 $normalPadding: 100px;
 $normalMargin: 40px;
+$mainFontStyle: "Bitter", serif;
 
 @mixin border-radius($radius){
     -webkit-border-radius: $radius;
@@ -21,6 +22,7 @@ $normalMargin: 40px;
 
 .btn-primary{
     @include transition(1s);
+    font-family: $mainFontStyle;
     text-transform: uppercase;
     font-weight: bold;
     color: red;

@@ -4,9 +4,8 @@ $desktopLowerBound : 767px;
 
 
 h1{
-    letter-spacing: .03em;
     color: white !important;
-    font-family: $mainFontStyle !important;
+    font-style: $mainFontStyle;
     @media screen and (min-width: $desktopLowerBound)
     {
         font-size: 5vw;
@@ -22,8 +21,7 @@ h1{
 
 h4{
     color: white !important;
-    font-family: $mainFontStyle !important;
-    font-weight: 900;
+    font-style: $mainFontStyle;
     @media screen and (min-width: $desktopLowerBound)
     {
         font-size: 2vw;
@@ -51,7 +49,7 @@ h4{
     padding-top: 5vh;
     padding-bottom: 5vh;
     border: 4px solid transparentize(red, .10);
-    background: transparentize(black, .30);
+    background: transparentize(black, .20);
 }
 
 .redTitle

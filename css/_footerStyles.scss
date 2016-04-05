@@ -1,10 +1,13 @@
 $primaryForegroundColor: white;
 $primaryBackgroundColor: black;
+$mainFontStyle: 'Bitter', serif;
 
 .footer
 {
+    font-family: $mainFontStyle;
+
     color: $primaryForegroundColor !important;
-    background: $primaryBackgroundColor !important;
+    background: transparentize($primaryBackgroundColor, 0.4) !important;
     p
     {
          margin-top: 1.5vh;

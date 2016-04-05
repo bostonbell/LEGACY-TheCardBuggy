@@ -8,7 +8,32 @@ $slightlyMargins: 0%;
 $fullSized : 100%;
 $elementStaticHeight : 600px;
 
+
+@mixin background-size($size)
+{
+    -webkit-background-size: $size;
+    -moz-background-size: $size;
+    -ms-background-size: $size;
+    background-size: $size;
+}
+
+body
+{
+    background-color: transparent !important;
+    background: url(../img/cardsbackground1.jpg) no-repeat center center fixed;
+    @include background-size(cover);
+}
+
+.titleData
+{
+    @media screen and (min-width: 768px)
+    {
+        width: 45% !important;
+    }
+}
+
 .container {
+
     .well
     {
         border: $borderData;
