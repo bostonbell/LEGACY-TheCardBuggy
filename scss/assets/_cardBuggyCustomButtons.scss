@@ -1,0 +1,43 @@
+$normalPadding: 100px;
+$normalMargin: 40px;
+$mainFontStyle: "Bitter", serif;
+
+@mixin border-radius($radius){
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin transition($time){
+    -webkit-transition: $time;
+    -moz-transition: $time;
+    -ms-transition: $time;
+    border-radius: $time;
+}
+
+.buttonColumn{
+    margin-top: $normalMargin / 2;
+}
+
+.btn-primary{
+    @include transition(1s);
+    font-family: $mainFontStyle;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+    background: black;
+    border: 4px solid white;
+
+    &:hover {
+        @include transition(1s);
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black !important;
+        background: white !important;
+        border: 4px solid red !important;
+    }
+
+    @include border-radius(0px);
+
+}
