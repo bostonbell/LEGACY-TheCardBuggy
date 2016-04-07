@@ -8,8 +8,21 @@ $slightlyMargins: 0%;
 $fullSized : 100%;
 $elementStaticHeight : 400px;
 
-body {
+@mixin background-size($size)
+{
+    -webkit-background-size: $size;
+    -moz-background-size: $size;
+    -ms-background-size: $size;
+    background-size: $size;
 }
+
+
+body {
+    background-color: transparent !important;
+    background: url(../img/about.jpg) no-repeat center center fixed;
+    @include background-size(cover);
+}
+
 
 .addExtraSpace
 {
@@ -44,7 +57,7 @@ body {
     left: 6%;
     width: 88%;
     margin-top: 25px !important;
-    border: red 2px solid;
+        border-radius: 20px !important;
     height: 150px !important;
     background: black;
 }
@@ -52,10 +65,11 @@ body {
     
     .well
     {
+        border-radius: 20px !important;
 
-        border: red 2px solid !important;
+        border: transparent;
         color: white !important;
-        background: black !important;
+        background: transparentize(black, 0.0) !important;
         height: $elementStaticHeight / 1.05;
     }
 

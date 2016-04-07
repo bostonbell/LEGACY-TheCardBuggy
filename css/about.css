@@ -52,6 +52,20 @@ body {
 .description {
   margin-top: 10px; }
 
+.featureList ul {
+  margin-top: 15px;
+  margin-left: 0px;
+  padding-left: 0px; }
+.featureList li {
+  font-size: 14px;
+  line-height: 2em; }
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  color: black !important; }
+
 @media screen and (max-width: 766px) {
   .prices {
     margin-top: 10px; } }
@@ -137,6 +151,14 @@ footer {
   .footer p {
     margin-top: 1.5vh; }
 
+body {
+  background-color: transparent !important;
+  background: url(../img/about.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover; }
+
 @media screen and (max-width: 767px) {
   .addExtraSpace {
     height: 100px; } }
@@ -152,7 +174,7 @@ footer {
   left: 6%;
   width: 88%;
   margin-top: 25px !important;
-  border: red 2px solid;
+  border-radius: 20px !important;
   height: 150px !important;
   background: black; }
   @media screen and (min-width: 768px) {
@@ -163,7 +185,8 @@ footer {
       margin-right: 15px; } }
 
 .container .well {
-  border: red 2px solid !important;
+  border-radius: 20px !important;
+  border: transparent;
   color: white !important;
   background: black !important;
   height: 380.95238px; }

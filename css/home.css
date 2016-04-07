@@ -52,6 +52,20 @@ body {
 .description {
   margin-top: 10px; }
 
+.featureList ul {
+  margin-top: 15px;
+  margin-left: 0px;
+  padding-left: 0px; }
+.featureList li {
+  font-size: 14px;
+  line-height: 2em; }
+
+.carousel-caption {
+  position: relative;
+  left: auto;
+  right: auto;
+  color: black !important; }
+
 @media screen and (max-width: 766px) {
   .prices {
     margin-top: 10px; } }
@@ -145,9 +159,11 @@ body {
   -ms-background-size: cover;
   background-size: cover; }
 
-@media screen and (min-width: 768px) {
-  .titleData {
-    width: 45% !important; } }
+.titleData {
+  border-radius: 20px !important; }
+  @media screen and (min-width: 768px) {
+    .titleData {
+      width: 45% !important; } }
 
 .container .well {
   border: 2px solid black;

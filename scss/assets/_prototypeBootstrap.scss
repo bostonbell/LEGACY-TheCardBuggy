@@ -16,6 +16,30 @@ body {
     margin-top: $normalMargin / 4;
 }
 
+.featureList
+{
+    ul
+    {
+        margin-top: 15px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    li
+    {
+        font-size: 14px;
+        line-height: 2em;
+    }
+}
+
+.carousel-caption
+{
+    position: relative;
+    left: auto;
+    right: auto;
+    color: black !important;
+}
+
 .prices
 {
     @media screen and (max-width: 766px)
