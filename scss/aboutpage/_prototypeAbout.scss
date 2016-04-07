@@ -1,18 +1,61 @@
 $normalPadding: 100px;
 $littlePadding: 10px;
-$normalMargin: 40px;
+$normalMargin: 50px;
 $normalBorderRadius: 4px;
-$borderData: 2px solid black;
+$borderData: 2px solid transparent;
 $slightlySmaller: 48%;
 $slightlyMargins: 0%;
 $fullSized : 100%;
-$elementStaticHeight : 600px;
+$elementStaticHeight : 400px;
 
+body {
+}
+
+.addExtraSpace
+{
+    @media screen and (max-width: 767px)
+    {
+        height: 100px;
+    }
+
+    @media screen and (min-width: 768px)
+    {
+        height: 250px;
+    }
+
+}
+
+.extraMargin
+{
+    margin-top: $normalMargin + 5px;
+}
+
+.highlight
+{
+    padding-bottom: 100px !important;
+    @media screen and (min-width: 768px)
+    {
+        width: 25%;
+        left: 37.5%;
+        margin-left: 15px; 
+        margin-right: 15px; 
+
+    }
+    left: 6%;
+    width: 88%;
+    margin-top: 25px !important;
+    border: red 2px solid;
+    height: 150px !important;
+    background: black;
+}
 .container {
     
     .well
     {
-        border: $borderData;
+
+        border: red 2px solid !important;
+        color: white !important;
+        background: black !important;
         height: $elementStaticHeight / 1.05;
     }
 
@@ -39,7 +82,6 @@ $elementStaticHeight : 600px;
        margin: $littlePadding;
        margin-left: $slightlyMargins;
        margin-right: $slightlyMargins;
-       
        height: $elementStaticHeight;
     }
 }

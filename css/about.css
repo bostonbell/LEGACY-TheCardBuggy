@@ -2,11 +2,14 @@
   color: red !important; }
 
 .navbar-default {
+  height: 50px !important;
+  font-size: 14px !important;
+  font-weight: 800px !important;
   -webkit-transition: all 2s;
   -moz-transition: all 2s;
   -ms-transition: all 2s;
   transition: all 2s;
-  background: rgba(0, 0, 0, 0.7) !important;
+  background: black !important;
   border-bottom: 2px solid red;
   font-family: "Bitter", serif; }
   .navbar-default .navbar-header .navbar-brand {
@@ -16,7 +19,7 @@
   .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
     color: red; }
   .navbar-default:hover {
-    background: black !important; }
+    background: rgba(0, 0, 0, 0.7) !important; }
 
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
@@ -97,31 +100,6 @@ body {
 footer {
   margin: 50px 0; }
 
-.container .well {
-  border: 2px solid black;
-  height: 571.42857px; }
-.container .col-md-6 {
-  margin: 10px;
-  margin-left: 0%;
-  margin-right: 0%;
-  height: 600px; }
-.container .col-sm-12 {
-  margin: 10px;
-  margin-left: 0%;
-  margin-right: 0%;
-  height: 600px; }
-.container .col-xs-12 {
-  margin: 10px;
-  margin-left: 0%;
-  margin-right: 0%;
-  height: 600px; }
-
-.notop {
-  margin-top: 0px !important; }
-
-.nobot {
-  margin-bottom: 0px !important; }
-
 .buttonColumn {
   margin-top: 20px; }
 
@@ -154,9 +132,61 @@ footer {
 .footer {
   font-family: "Bitter", serif;
   color: white !important;
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: black !important;
   border-top: 2px solid red; }
   .footer p {
     margin-top: 1.5vh; }
+
+@media screen and (max-width: 767px) {
+  .addExtraSpace {
+    height: 100px; } }
+@media screen and (min-width: 768px) {
+  .addExtraSpace {
+    height: 250px; } }
+
+.extraMargin {
+  margin-top: 55px; }
+
+.highlight {
+  padding-bottom: 100px !important;
+  left: 6%;
+  width: 88%;
+  margin-top: 25px !important;
+  border: red 2px solid;
+  height: 150px !important;
+  background: black; }
+  @media screen and (min-width: 768px) {
+    .highlight {
+      width: 25%;
+      left: 37.5%;
+      margin-left: 15px;
+      margin-right: 15px; } }
+
+.container .well {
+  border: red 2px solid !important;
+  color: white !important;
+  background: black !important;
+  height: 380.95238px; }
+.container .col-md-6 {
+  margin: 10px;
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 400px; }
+.container .col-sm-12 {
+  margin: 10px;
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 400px; }
+.container .col-xs-12 {
+  margin: 10px;
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 400px; }
+
+.notop {
+  margin-top: 0px !important; }
+
+.nobot {
+  margin-bottom: 0px !important; }
 
 /*# sourceMappingURL=about.css.map */

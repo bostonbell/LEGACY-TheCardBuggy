@@ -2,11 +2,14 @@
   color: red !important; }
 
 .navbar-default {
+  height: 50px !important;
+  font-size: 14px !important;
+  font-weight: 800px !important;
   -webkit-transition: all 2s;
   -moz-transition: all 2s;
   -ms-transition: all 2s;
   transition: all 2s;
-  background: rgba(0, 0, 0, 0.7) !important;
+  background: black !important;
   border-bottom: 2px solid red;
   font-family: "Bitter", serif; }
   .navbar-default .navbar-header .navbar-brand {
@@ -16,7 +19,7 @@
   .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
     color: red; }
   .navbar-default:hover {
-    background: black !important; }
+    background: rgba(0, 0, 0, 0.7) !important; }
 
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
@@ -129,7 +132,7 @@ footer {
 .footer {
   font-family: "Bitter", serif;
   color: white !important;
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: black !important;
   border-top: 2px solid red; }
   .footer p {
     margin-top: 1.5vh; }

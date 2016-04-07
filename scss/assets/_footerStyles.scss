@@ -7,7 +7,7 @@ $mainFontStyle: 'Bitter', serif;
     font-family: $mainFontStyle;
 
     color: $primaryForegroundColor !important;
-    background: transparentize($primaryBackgroundColor, 0.4) !important;
+    background: $primaryBackgroundColor !important;
     p
     {
          margin-top: 1.5vh;

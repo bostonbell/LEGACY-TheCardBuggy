@@ -4,6 +4,8 @@ $transitionScale: 1.2;
 $navbarForeground: white;
 $navbarHover: red;
 $primaryFontFamily: 'Bitter', serif;
+$navbarHeight: 50px;
+$navbarFontSize : 14px;
 
 @mixin transitionScale($time, $scale){
    }
@@ -13,11 +15,14 @@ $primaryFontFamily: 'Bitter', serif;
 }
 
 .navbar-default{
+    height: $navbarHeight !important;
+    font-size: $navbarFontSize !important;
+    font-weight: 800px !important;
     -webkit-transition: all $transitionTime;
     -moz-transition: all $transitionTime;
     -ms-transition: all $transitionTime;
     transition: all $transitionTime;
-    background: transparentize($navbarBackground, 0.3) !important;
+    background: $navbarBackground !important;
     border-bottom: 2px solid $navbarHover;
     font-family: $primaryFontFamily;
 
@@ -36,7 +41,7 @@ $primaryFontFamily: 'Bitter', serif;
     }
 
     &:hover {
-        background: black !important; 
+        background: transparentize(black, 0.3) !important; 
     }
 
 
